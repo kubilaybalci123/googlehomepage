@@ -14,19 +14,22 @@ body{
   color:black;
 }
 
+#nav_bar li:hover{
+  text-decoration: underline;
+}
 #nav_bar li {
   display: inline-block;
   padding: 8px;
-
 }
 
-
-#nav_bar nav_links img {
-  resize: 0;
-
+#nav_bar li .icon{
+opacity: 0.55;
+vertical-align: middle;
 }
 
-
+#nav_bar li .icon:hover{
+opacity: 1;
+}
 
 
 a{
@@ -113,6 +116,9 @@ font-family:arial,sans-serif;
 
 }
 
+footer li:hover{
+  text-decoration: underline;
+}
 
 .footer-left li {
 
